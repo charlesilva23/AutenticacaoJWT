@@ -1,0 +1,35 @@
+body{
+    margin: 0px;
+}
+
+
+input {
+    width: 50em;
+    padding: 10px; 
+    margin: 20px;
+}
+
+.acesso{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 35em;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.button-acesso{
+    padding: 10px 20px;
+    font-size: 16px;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button-acesso:hover{
+    background-color: rgb(164, 255, 225);
+}
